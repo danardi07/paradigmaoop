@@ -28,7 +28,7 @@ class dokter {
 	void tambahPasien(pasien*);
 	void cetakPasien();
 };
-void pasien::tambahPasien(pasien* pPasien) {
+void pasien::tambahPasien(pasien* pPasien) { 
 	daftar_pasien.push_back(pPasien);
 	pPasien->tambahDokter(this); 
 }
